@@ -1,0 +1,1 @@
+{% autoescape off %}{{ event|title }}: {{ amount }}{% if reference %} (ref {{ reference }}){% endif %}.{% if balance is not None %} Balance: {{ balance }}.{% endif %}{% if reason %} Reason: {{ reason }}{% endif %}{% endautoescape %}

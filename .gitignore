@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Django
+*.log
+local_settings.py
+.secret_key
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Testing / coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Docs
+docs/_build/
+
+# Local scratch projects (package migrations in wallet/migrations/ ARE tracked)
+test_project/
+django-package-test/
+
+# Local environments used for multi-version testing
+.venv*/

@@ -1,0 +1,1 @@
+{% autoescape off %}Your withdrawal of {{ amount }} (ref {{ reference }}) failed and {{ total_amount }} was returned to your wallet.{% if reason %} Reason: {{ reason }}{% endif %}{% endautoescape %}

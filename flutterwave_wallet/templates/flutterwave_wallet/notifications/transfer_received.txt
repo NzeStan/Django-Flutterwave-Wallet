@@ -1,0 +1,1 @@
+{% autoescape off %}You received {{ total_amount }} (ref {{ reference }}). New balance: {{ balance }}.{% endautoescape %}
